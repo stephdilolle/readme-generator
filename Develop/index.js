@@ -39,6 +39,11 @@ function promptUser() {
             type: 'input',
             name: 'questions',
             message: 'Enter the link to your GitHub profile and your email address:'
+        },
+        {
+            type: 'list',
+            name: 'license',
+            choices: ['Creative Commons', 'Artistic', 'MIT', 'Mozilla Public License', 'Open Software License'],
         }
     ]);
 }
